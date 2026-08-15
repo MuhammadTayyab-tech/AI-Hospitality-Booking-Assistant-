@@ -1,0 +1,76 @@
+{
+  "restaurant": {
+    "2026-08-20": [
+      {
+        "time": "18:00",
+        "max_party_size": 4,
+        "price_per_person": 18
+      },
+      {
+        "time": "19:30",
+        "max_party_size": 6,
+        "price_per_person": 22
+      },
+      {
+        "time": "21:00",
+        "max_party_size": 8,
+        "price_per_person": 20
+      }
+    ],
+    "2026-08-21": [
+      {
+        "time": "18:30",
+        "max_party_size": 4,
+        "price_per_person": 18
+      },
+      {
+        "time": "20:00",
+        "max_party_size": 10,
+        "price_per_person": 24
+      }
+    ]
+  },
+  "hotel": {
+    "room_types": [
+      "Single",
+      "Double",
+      "Deluxe"
+    ],
+    "availability": {
+      "2026-08-20": [
+        {
+          "room_type": "Single",
+          "available_rooms": 3,
+          "price_per_night": 45
+        },
+        {
+          "room_type": "Double",
+          "available_rooms": 2,
+          "price_per_night": 65
+        },
+        {
+          "room_type": "Deluxe",
+          "available_rooms": 1,
+          "price_per_night": 95
+        }
+      ],
+      "2026-08-21": [
+        {
+          "room_type": "Single",
+          "available_rooms": 4,
+          "price_per_night": 45
+        },
+        {
+          "room_type": "Double",
+          "available_rooms": 0,
+          "price_per_night": 65
+        },
+        {
+          "room_type": "Deluxe",
+          "available_rooms": 1,
+          "price_per_night": 95
+        }
+      ]
+    }
+  }
+}
